@@ -1,0 +1,15 @@
+PROJECT TITLE: GradesV2
+PURPOSE OF THE PROJECT: to print a list of grades and their averages
+VERSION or DATE: 10, 01, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+ 
+<S+>:
+ I learned to iterate around a variable so I didn't need to write System.out.println() 50,000x
+ 
+<S->:
+It was a bit tricky getting the for loop to work
+ 
+In the future:
+I will use for loops more often

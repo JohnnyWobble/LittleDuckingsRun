@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "Mod02.Files.Testing1.Main",
+            "projectName": "AP Comp Sci_21fc681a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CalculationsV6",
+            "request": "launch",
+            "mainClass": "Mod02.Assignments.CalculationsV6.CalculationsV6",
+            "projectName": "AP Comp Sci_21fc681a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Testing1",
+            "request": "launch",
+            "mainClass": "Mod02.Files.Testing1.Testing1",
+            "projectName": "AP Comp Sci_21fc681a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Testing",
+            "request": "launch",
+            "mainClass": "Mod02.Files.Testing.Testing",
+            "projectName": "AP Comp Sci_21fc681a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CalculationsV1",
+            "request": "launch",
+            "mainClass": "Mod02.Files.CalculationsV1.CalculationsV1",
+            "projectName": "AP Comp Sci_21fc681a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StudentInfoCard",
+            "request": "launch",
+            "mainClass": "StudentInfoCard",
+            "projectName": "AP Comp Sci_21fc681a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld"
+        }
+    ]
+}

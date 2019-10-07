@@ -1,0 +1,16 @@
+PROJECT TITLE: 
+PURPOSE OF THE PROJECT: 
+VERSION or DATE: 10, 03, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+ 
+<S+>:
+I used https://www.xe.com/currencyconverter/ for some of my conversions, and the default google one for others,
+I had a lot of fun researching obscure countries, they are very interesting
+ 
+<S->:
+Writing all of the System.out.println(); statements was annoying
+ 
+In the future:
+I will copy and paste the System.out.println(); more often
