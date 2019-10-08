@@ -1,0 +1,15 @@
+PROJECT TITLE: ArtWork
+PURPOSE OF THE PROJECT: To show some cool artwork
+VERSION or DATE: 10, 07, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+ 
+<S+>:
+I had a lot of fun making the art
+ 
+<S->:
+Making the art was very annoying at times
+ 
+In the future:
+I will learn better ways to make art
