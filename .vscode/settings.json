@@ -4,6 +4,8 @@
         "scmtb"
     ],
     "cSpell.words": [
-        "abyte"
-    ]
+        "abyte",
+        "aeiou"
+    ],
+    "code-runner.runInTerminal": true
 }
