@@ -1,0 +1,13 @@
+PROJECT TITLE: GradesV3
+PURPOSE OF THE PROJECT: to display user inputted grades
+VERSION or DATE: 10, 10, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+   
+<S+>:
+   I had a lot of fun playing around with the loops
+<S->:
+   It was very annoying comparing strings with .equals(), in Python is just ==
+In the future: 
+   I will utilize loops more
