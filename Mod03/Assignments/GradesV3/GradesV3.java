@@ -37,6 +37,8 @@ public class GradesV3 {
             // technically this is the start of the visual loop
             System.out.print("> ");
             strArr[counter] = input.next();
+
+            // Final digit check
             if (counter == 9) {
                 doubleArr[counter] = input.nextDouble();
             };
