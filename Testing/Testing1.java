@@ -2,14 +2,13 @@ import java.util.Scanner;
 
 public class Testing1 {
     public static void main(String[ ] args) {
-        String[] arr = {"xyz"};
-        System.out.println(arr[0] == "xyz");
-
-
-
+        // Scanner in = new Scanner(System.in);/
+        Scanner in = new Scanner(System.in);
+        System.out.print("Please enter your name (first last): ");
+        String firstName = in.next();
+        System.out.println(firstName);
         
-        // Scanner in = new Scanner(System.in);
-        // in = new Scanner(System.in);
+
         // System.out.println("Please enter a sentence: ");
         // String firstWord = in.next();
         // String restOfLine = in.nextLine();
