@@ -1,0 +1,13 @@
+PROJECT TITLE: Amazon
+PURPOSE OF THE PROJECT: To display a nice shopping receipt
+VERSION or DATE: 10, 12, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+   
+<S+>:
+   I had a lot of fun making the loading bar sequence
+<S->:
+   The loading bar was very frustrating to make with the try except phrase
+In the future: 
+   I will work on a better way to make a loading bar
