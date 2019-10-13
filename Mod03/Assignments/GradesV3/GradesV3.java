@@ -22,24 +22,28 @@ public class GradesV3 {
         String userName = input.nextLine();
 
         // Get tests
-        System.out.println("Enter the subject then the score of the test (up to 10 tests), e.g. 'Math 97', then enter 'done' to finish");
+        System.out.println("Enter the subject then the score of the test (up to 10 tests), then enter 'done' (in the subject name area) to finish");
         int counter = 0;
 
         // First input, its like this so it can check for "done" easier
-        System.out.print("> ");
-        strArr[counter] = input.next();
+        System.out.print("Subject: ");
+        strArr[counter] = input.nextLine();
 
         // Subsequent inputs
         while (counter < 9 && !strArr[counter].equals("done")) {
-            doubleArr[counter] = input.nextDouble();
+            System.out.print("Grade: ");
+            doubleArr[counter] = Double.parseDouble(input.nextLine());
             counter++;
 
+            System.out.println("-----------------------------");
+
             // technically this is the start of the visual loop
-            System.out.print("> ");
-            strArr[counter] = input.next();
+            System.out.print("Subject: ");
+            strArr[counter] = input.nextLine();
 
             // Final digit check
             if (counter == 9) {
+                System.out.print("Grade: ");
                 doubleArr[counter] = input.nextDouble();
             };
         };
