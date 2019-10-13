@@ -11,6 +11,7 @@ Quiz Rules: Look closely to see the number of submissions allowed for a quiz in 
 02.06 Primitive Data Type Conversions: pdtc15
 03.06 String Class Methods The Basics: scmtb8
 03.08 Parsing: p5
+03.11 Module 03 Exam: m3e12
 04.01 Number Systems: ns5
 04.03 Conditions Statement if: csi5
 04.04 Condition Statements if-else: csi-e5
