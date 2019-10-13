@@ -31,12 +31,12 @@ public class Amazon {
         // Cost
         System.out.print("Please enter the cost of the " + item + ": ");
 
-        double cost = Double.parseDouble(input.nextLine());
+        String cost_str = input.nextLine();
 
         // Number of items
         System.out.print("Please enter the total number of " + item + "s do you want: ");
 
-        int numberOfItems = Integer.parseInt(input.nextLine());
+        String numberOfItems_str = input.nextLine();
 
         // credit card
         System.out.print("Please enter your credit card number (#####-###-####): ");
@@ -61,15 +61,15 @@ public class Amazon {
         System.out.print("|");  // done
 
         System.out.println("\n\nYour e-receipt:\n\n");
-        System.out.println(date);
+        System.out.println(date.substring(0, 2) + "-" + date.substring(3, 5) + "-" + date.substring(6, 10));
         System.out.println("Order Number: " + userFirstName.substring(0, 1) + userLastName.substring(1, 2) + date.substring(0, 2) + date.substring(3, 5));
         System.out.println("\n    " + userFirstName.substring(0, 1) + "." + userLastName);
         System.out.println("    Account:        #####-###-" + creditCardNum.substring(10, 14));
         System.out.println("    Item:           " + item);
-        System.out.println("    Item Count:     " + numberOfItems);
-        System.out.println("    Price Per Item: " + cost);
-        System.out.println("    Total Cost:     " + (numberOfItems * cost));
-        System.out.println("\n  You will be billed $" + (numberOfItems * cost));
+        System.out.println("    Item Count:     " +  numberOfItems_str);
+        System.out.println("    Price Per Item: " + cost_str);
+        System.out.println("    Total Cost:     " + ( Integer.parseInt(numberOfItems_str) * Double.parseDouble(cost_str)));
+        System.out.println("\n  You will be billed $" + ( Integer.parseInt(numberOfItems_str) * Double.parseDouble(cost_str)));
         System.out.println("\nHave a nice day!");
     }
 }
