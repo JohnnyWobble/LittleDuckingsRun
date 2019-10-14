@@ -1,0 +1,13 @@
+PROJECT TITLE: BMI
+PURPOSE OF THE PROJECT: The calculate the user's BMI
+VERSION or DATE: 10, 14, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+     
+<S+>:
+    Java is fun
+<S->:
+    in Python you can do (11 <= bmi <= 12), but in Java you have to do (11 <= bmi && bmi <= 12)
+In the future: 
+    I will learn Java better
