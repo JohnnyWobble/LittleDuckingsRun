@@ -1,0 +1,13 @@
+PROJECT TITLE: TDEE
+PURPOSE OF THE PROJECT: Calculate your TDEE
+VERSION or DATE: 10, 18, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    It was fun playing around with the strings
+<S->:
+    I hate .equals() in python you just use ==
+In the future: 
+    I will learn how to manipulate strings better
