@@ -1,0 +1,13 @@
+PROJECT TITLE: AnnualWeatherV1
+PURPOSE OF THE PROJECT: To display weather stats
+VERSION or DATE: 11, 01, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+ 
+<S+>:
+    I had fun playing around with arrays
+<S->
+    Arrays are very annoying sometimes
+In the future:
+    I will learn to use arrays more effectively
