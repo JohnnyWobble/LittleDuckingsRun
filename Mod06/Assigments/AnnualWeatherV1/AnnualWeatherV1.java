@@ -20,16 +20,12 @@ public class AnnualWeatherV1 {
         double totalTemp = 0.0;
         double totalPrecip = 0.0;
 
+        // Units
+        boolean fahrenheit = true;
+        boolean inches = true;
 
-        String [] month = {"Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sep.", "Oct.", "Nov.", "Dec." };
 
-
-        System.out.print("Do you want to input custom data [Y/N]: ");
-        String yn = input.nextLine();
-
-        while (!yn.equalsIgnoreCase("y") && !yn.equalsIgnoreCase("n")) {
-            yn = input.nextLine();
-        }
+        String [] month = {"Jan.", "Feb.", "Mar.", "Apr.", "May ", "Jun.", "Jul.", "Aug.", "Sep.", "Oct.", "Nov.", "Dec." };
 
         // Arrays for Miami
         Double [] temperature = {68.1, 69.1, 72.4, 75.7, 79.6, 82.4, 83.7, 83.6, 82.4, 78.8, 74.4, 69.9};     //initialize with Fahrenheit values
@@ -39,31 +35,50 @@ public class AnnualWeatherV1 {
         // double [] temperature = {51.8, 54.8, 61.1, 66.4, 74.4, 80.4, 82.4, 82.1, 78.9, 69.1, 60.4, 53.7};     //initialize with Fahrenheit values
         // double [] precipitation = {66.2, 67.2, 70.6, 73.8, 78.2, 81.2, 82.5, 82.8, 81.7, 78.1, 73.1, 68.3};      //initialize with inch values
 
-        if (yn.equalsIgnoreCase("y")) {
-
-            // Get temperature-precipitation data
-            System.out.print("Add your temperature data: ");
-            for (int i = 0; i < 12; i++) {
-                temperature[i] = input.nextDouble();
-            }
-            System.out.print("Add your precipitation data: ");
-            for (int i = 0; i < 12; i++) {
-                precipitation[i] = input.nextDouble();
-            }
-
-            // Get City-state data
-            System.out.print("What is the city and state for this data: ");
-            city = input.next();
-            System.out.println();
-            System.out.print("What state is that city in: ");
-            state = input.nextLine();
-
+        System.out.print("What unit of temperature do you want to use [F/c]: ");
+        String answerFC = input.nextLine();
+        while (!(answerFC.equalsIgnoreCase("") || answerFC.equalsIgnoreCase("f") || answerFC.equalsIgnoreCase("c"))) {
+            System.out.print("What unit of temperature do you want to use [F/c]: ");
+            answerFC = input.nextLine();
         }
 
-        
-        String tempLabel = "F";    //initialize to F
-        String precipLabel = "in."; //initialize to in
-    
+        System.out.print("What unit of precipitation do you want to use [IN/cm]: ");
+        String answerINCM = input.nextLine();
+        while (!(answerINCM.equalsIgnoreCase("") || answerINCM.equalsIgnoreCase("in") || answerINCM.equalsIgnoreCase("cm"))) {
+            System.out.print("What unit of precipitation do you want to use [IN/cm]: ");
+            answerINCM = input.nextLine();
+        }
+
+        String tempLabel = "";
+        String precipLabel = "";
+
+        if (answerFC.equalsIgnoreCase("") || answerFC.equalsIgnoreCase("f")) {
+            tempLabel = "F";    //initialize to F
+        } else {
+            tempLabel = "C";
+            fahrenheit = false;
+        }
+        if (answerFC.equalsIgnoreCase("") || answerFC.equalsIgnoreCase("in")) {
+            precipLabel = "in.";    //initialize to F
+        } else {
+            precipLabel = "cm.";
+            inches = false;
+        }
+
+        for (int i = 0; i < 12; i++) {
+            if (!fahrenheit && !inches) {
+                temperature[i] = (temperature[i] - 32) * (5/9.0);
+                precipitation[i] *= 2.54; 
+            } else if (!fahrenheit && inches) {
+                temperature[i] = (temperature[i] - 32) * (5/9.0);
+            } else if (fahrenheit && !inches) {
+                precipitation[i] *= 2.54; 
+            } else {
+                continue;
+            }
+            temperature[i] = (int)(temperature[i] * 10) / 10.0;
+            precipitation[i] = (int)(precipitation[i] * 10) / 10.0;
+        }
 
         //Output: display table of weather data including average and total
         System.out.println();
@@ -77,7 +92,7 @@ public class AnnualWeatherV1 {
             totalTemp += temperature[index];
             totalPrecip += precipitation[index];
 
-            System.out.printf("%s\t\t%f\t\t%f%n", month[index], temperature[index], precipitation[index]);
+            System.out.printf("%s%18.1f%18.1f%n", month[index], temperature[index], precipitation[index]);
   
         }
 
@@ -86,7 +101,7 @@ public class AnnualWeatherV1 {
         aveTemp = (int)((totalTemp / temperature.length) * 100) / 100.0;
 
         // Print final data
-        System.out.println("Average Temperature: " + aveTemp + "    Total Precipitation: " + totalPrecip);
+        System.out.printf("Average Temperature: %4.1f    Total Precipitation: %5.1f ", aveTemp, totalPrecip);
 
         input.close();
     }//end main
