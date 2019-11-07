@@ -1,0 +1,13 @@
+PROJECT TITLE: HurricaneSelector
+PURPOSE OF THE PROJECT: To show some cool facts about hurricanes
+VERSION or DATE: 11, 07, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+ 
+<S+>:
+    I has lots of fun figuring out the logic
+<S->:
+    All of the text formatting was super annoying especially with the \t's
+In the future:
+    I will invent an auto formatter that does all of the work for me
