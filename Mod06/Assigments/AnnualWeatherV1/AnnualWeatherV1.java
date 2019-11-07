@@ -3,7 +3,6 @@
  * 
  * @author Max Gordon
  * @version 10/1/19
- *
  */
 import java.util.Scanner;
 
@@ -58,7 +57,7 @@ public class AnnualWeatherV1 {
             tempLabel = "C";
             fahrenheit = false;
         }
-        if (answerFC.equalsIgnoreCase("") || answerFC.equalsIgnoreCase("in")) {
+        if (answerINCM.equalsIgnoreCase("") || answerINCM.equalsIgnoreCase("in")) {
             precipLabel = "in.";    //initialize to F
         } else {
             precipLabel = "cm.";
@@ -66,21 +65,15 @@ public class AnnualWeatherV1 {
         }
 
         for (int i = 0; i < 12; i++) {
-            if (!fahrenheit && !inches) {
+            if (!fahrenheit) {
                 temperature[i] = (temperature[i] - 32) * (5/9.0);
-                precipitation[i] *= 2.54; 
-            } else if (!fahrenheit && inches) {
-                temperature[i] = (temperature[i] - 32) * (5/9.0);
-            } else if (fahrenheit && !inches) {
-                precipitation[i] *= 2.54; 
-            } else {
-                continue;
             }
-            temperature[i] = (int)(temperature[i] * 10) / 10.0;
-            precipitation[i] = (int)(precipitation[i] * 10) / 10.0;
+            if (!inches) {
+                precipitation[i] *= 2.54; 
+            }
         }
 
-        //Output: display table of weather data including average and total
+        // Output: display table of weather data including average and total
         System.out.println();
         System.out.println("           Weather Data");
         System.out.println("      Location: " + city +", " + state);
