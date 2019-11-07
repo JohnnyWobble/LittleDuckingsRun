@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.File;
 import java.util.Scanner;
+
 public class HurricaneSelector {
     public static void main(String[] args) throws IOException {
         //read data from text file & put in an array
@@ -38,12 +39,12 @@ public class HurricaneSelector {
         
         //initialize arrays based on lines counted in text file
         int [] years = new int[numValues];
-        String [] months = new String[numValues];
+        int [] category = new int[numValues];
         int [] pressures = new int[numValues];
         double [] windSpeedsKTS = new double[numValues];
         double [] windSpeedsMPH = new double[numValues];
         String [] names = new String[numValues];
-        int [] category = new int[numValues];
+        String [] months = new String[numValues];
         
         //read and assign data from text file to the arrays
         inFile = new Scanner(fileName);
@@ -97,15 +98,15 @@ public class HurricaneSelector {
         double presAve = 0.0;
 
         for(int i = 0; i < pressures.length; i++) {
-            if (pressures[i] < min) {
-                min = pressures[i];
+            if (pressures[i] < presMin) {
+                presMin = pressures[i];
             }
-            if (pressures[i] > max) {
-                max = pressures[i];
+            if (pressures[i] > presMax) {
+                presMax = pressures[i];
             }
-            catTot += pressures[i];
+            presTot += pressures[i];
         }
-        // presAve = 
+        presAve = presTot / pressures.length;
 
         // Calculate max, min, and average for speed
         int speMin = Integer.MAX_VALUE;
@@ -114,14 +115,15 @@ public class HurricaneSelector {
         double speAve = 0.0;
 
         for(int i = 0; i < windSpeedsMPH.length; i++) {
-            if (windSpeedsMPH[i] < min) {
-                min = windSpeedsMPH[i];
+            if (windSpeedsMPH[i] < speMin) {
+                speMin = (int)windSpeedsMPH[i];
             }
-            if (windSpeedsMPH[i] > max) {
-                max = windSpeedsMPH[i];
+            if (windSpeedsMPH[i] > speMax) {
+                speMax = (int)windSpeedsMPH[i];
             }
-            catTot += windSpeedsMPH[i];
+            speTot += windSpeedsMPH[i];
         }
+        speAve = speTot / windSpeedsMPH.length;
 
         // Calculate max, min, and average for catagories
         int catMin = Integer.MAX_VALUE;
@@ -130,31 +132,32 @@ public class HurricaneSelector {
         double catAve = 0.0;
 
         for(int i = 0; i < category.length; i++) {
-            if (category[i] < min) {
-                min = category[i];
+            if (category[i] < catMin) {
+                catMin = category[i];
             }
-            if (category[i] > max) {
-                max = category[i];
+            if (category[i] > catMax) {
+                catMax = category[i];
             }
             catTot += category[i];
         }
+        catAve = catTot / category.length;
 
         // Title sequence
         System.out.println();
         System.out.println("                           Hurricanes " + year1 + " - " + year2);
         System.out.println();
-        System.out.println("   Year   Hurricane       Category      Pressure (mb)     Wind Speed (mph)");
+        System.out.println("   Year        Hurricane      Category       Pressure (mb)    Wind Speed (mph)");
         System.out.println(" _____________________________________________________________________________");
 
         // Output te data in a pretty fashion
         for (int i = 0; i < years.length; i++) {
             if (years[i] != 0) {
-                System.out.printf("|  %d\t%-12s\t%3d\t\t%4d\t\t  %8.2f            |%n", years[i], names[i], category[i], pressures[i], windSpeedsMPH[i]);
+                System.out.printf("|  %d\t\t%-12s\t%3d\t\t%4d\t\t  %8.2f    |%n", years[i], names[i], category[i], pressures[i], windSpeedsMPH[i]);
             }
         }
         System.out.println("|_____________________________________________________________________________|");
         System.out.println();
-        System.out.printf("\tAverage:            %3.1f");
+        System.out.printf("\tAverage:            %3.1f\t\t%6.1f\t\t %8.2f%n", catAve, presAve, speAve);
 
         //continue program below
     }
