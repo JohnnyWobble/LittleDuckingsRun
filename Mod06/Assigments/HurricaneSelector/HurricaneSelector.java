@@ -1,6 +1,8 @@
 /**
  * This will show some interesting data about some hurricanes
- *
+ * 
+ * @author Max Gordon
+ * @version 11/6/2019
  */
  
 import java.io.IOException;
