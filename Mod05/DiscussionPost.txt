@@ -1,0 +1,15 @@
+ -- My post on Day in the Life --
+
+This video talks about how anyone can be a programmer, not just the nerd sitting alone in his dark basement. It goes on to point out that you don't have to be a super-genus to write these programs. Our whole world is built on the backs of computers and programs. It shows just how great it is to be a programmer, you are working at the forefront of technology, with other fantastic people. The video also shows how not all, or even most of the time spent at work is spent writing code. There are lots of social interactions, like presenting ideas, collaboration, and just talking to people. Because as a programmer, you don't just sit at a desk and type, you make tools to empower other people, and that requires communication. There is no one who I know of, except for Linus Torvalds (inventor of git and the Linux kernel), who has built programs, to avoid human interaction. Programming, at its heart, is a social job, that requires a lot of gathering feedback, and suggestions from people and users.
+I am personally very interested in AI and math, so learning more and more about just how programming works is fascinating to me. I love how this video went about really breaking down, what a programmer was, and in the end, they are the same as you and me. AI is all computer science and heavy in math, and I love it! So I try and learn as much as I can about computer science and just learning new languages.
+
+
+-- My response on 05.09A Discussion --
+
+I agree with you, I also thought that many of the applications for computer science were desk-jobs, but after watching that video, I saw that computer science involves going "out and about." I think it's really weird how no one seems to know what computer science is like, except of course, for the computer scientists. I like how you were able to relate to the people and ideas that were presented in the video.  I think it's great that you want to design software to make the world and better place, as opposed to a profit-driven dream. 
+
+
+-- My response on 05.09B Discussion -- 
+
+I definitely agree with you. Computers can do almost anything at this time. They are primarily used to assist people in their jobs and to do jobs that are either too dangerous or too remote for humans to do, such as going to Mars and digging though the ice caps. I also agree with your analysis of Pablo Picasso's opinion, I think that computers do more than just give answers.
+

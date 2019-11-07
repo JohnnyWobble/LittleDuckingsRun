@@ -4,10 +4,12 @@
         "scmtb"
     ],
     "cSpell.words": [
+        "INCM",
         "TDEE",
         "Vals",
         "abyte",
-        "aeiou"
+        "aeiou",
+        "precip"
     ],
     "code-runner.runInTerminal": true
 }
