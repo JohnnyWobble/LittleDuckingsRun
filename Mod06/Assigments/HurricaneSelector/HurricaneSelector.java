@@ -103,7 +103,7 @@ public class HurricaneSelector {
             }
             catTot += pressures[i];
         }
-        presAve = 
+        // presAve = 
 
         // Calculate max, min, and average for speed
         int speMin = Integer.MAX_VALUE;
