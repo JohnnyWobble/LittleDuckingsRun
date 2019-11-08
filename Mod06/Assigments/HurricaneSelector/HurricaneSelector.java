@@ -29,6 +29,8 @@ public class HurricaneSelector {
             year2 = input.nextInt();
         }
 
+        input.close();
+
         //count number of lines in text file
         while (inFile.hasNextLine() ) {
             inFile.nextLine();
@@ -179,12 +181,29 @@ public class HurricaneSelector {
         System.out.println();
         System.out.println();
         System.out.println("Summary of categories:");
-        System.out.printf("\tCat 1: %2d%n", cat1);
-        System.out.printf("\tCat 2: %2d%n", cat2);
-        System.out.printf("\tCat 3: %2d%n", cat3);
-        System.out.printf("\tCat 4: %2d%n", cat4);
-        System.out.printf("\tCat 5: %2d%n", cat5);
+        System.out.printf("\tCat 1: %2d%n", cat1);   
+        System.out.printf("\tCat 2: %2d%n", cat2);   
+        System.out.printf("\tCat 3: %2d%n", cat3);   
+        System.out.printf("\tCat 4: %2d%n", cat4);   
+        System.out.printf("\tCat 5: %2d%n", cat5);   
 
-        input.close();
+        // Write data
+        File outFile = new File("HurricaneData.txt");
+        outFile.createNewFile();
+
+        PrintWriter printFile = new PrintWriter(outFile);
+
+        // Write all of the data
+        printFile.println("Hurricanes " + year1 + " - " + year2);
+        printFile.println();
+        printFile.println("Summary of categories:");
+        printFile.printf("\tCat 1: %2d%n", cat1);   
+        printFile.printf("\tCat 2: %2d%n", cat2);   
+        printFile.printf("\tCat 3: %2d%n", cat3);   
+        printFile.printf("\tCat 4: %2d%n", cat4);   
+        printFile.printf("\tCat 5: %2d%n", cat5);   
+
+        printFile.close();
+
     }
 }
