@@ -188,7 +188,7 @@ public class HurricaneSelector {
         System.out.printf("\tCat 5: %2d%n", cat5);   
 
         // Write data
-        File outFile = new File("HurricaneData.txt");
+        File outFile = new File("HurricaneDataExport.txt");
         outFile.createNewFile();
 
         PrintWriter printFile = new PrintWriter(outFile);
