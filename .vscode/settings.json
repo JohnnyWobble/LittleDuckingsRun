@@ -4,6 +4,7 @@
         "scmtb"
     ],
     "cSpell.words": [
+        "EIMACS",
         "INCM",
         "TDEE",
         "Vals",
@@ -11,5 +12,6 @@
         "aeiou",
         "precip"
     ],
-    "code-runner.runInTerminal": true
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true
 }

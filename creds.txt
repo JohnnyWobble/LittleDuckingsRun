@@ -24,6 +24,8 @@ Quiz Rules: Look closely to see the number of submissions allowed for a quiz in 
 07.02 Defining New Static Methods-Part 1: dnsmp1-5
 08.05 Constructors with Parameters: cwp5
 08.10 ArrayLists I: al1-5
+08.14 Part 1 Challenge Exam-Multiple-Choice: m8cemc20
+08.14 Part 2 Challenge Exam-Free Response: m8cefr5
 
 ----- ----- -----
 
