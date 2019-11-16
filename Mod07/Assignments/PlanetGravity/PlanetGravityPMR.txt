@@ -1,0 +1,13 @@
+PROJECT TITLE: PlanetGravity
+PURPOSE OF THE PROJECT: To calculate the surface gravity on a planet
+VERSION or DATE: 11, 14, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    I hade fun playing around with the static methods
+<S->
+    It was annoying that it kept giving my errors from the compiler that there was and uncaught IOException
+In the future:
+    I well remember to declare `throws IOException`
