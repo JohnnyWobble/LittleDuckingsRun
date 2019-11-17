@@ -1,0 +1,13 @@
+PROJECT TITLE: EstimatePi
+PURPOSE OF THE PROJECT: To estimate pi
+VERSION or DATE: 11, 17, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    It was pretty cool how I could estimate pi with this method
+<S->:
+    I "accidentally" told it to do 99999999 trials with 1000 iterations each, and it just kept going
+In the future:
+    I will not tell it to do 99999999 trials with 1000 iterations each

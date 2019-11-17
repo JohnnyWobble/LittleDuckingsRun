@@ -64,8 +64,6 @@ public class PlanetGravity {
         // Create printWriter
         PrintWriter out = new PrintWriter(outFile);
 
-
-
         // Write to file
         for (double num : gravity) {
             out.println(num);

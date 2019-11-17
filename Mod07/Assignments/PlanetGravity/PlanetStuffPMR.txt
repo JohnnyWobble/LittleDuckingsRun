@@ -10,4 +10,4 @@ PMR
 <S->
     It was annoying that it kept giving my errors from the compiler that there was and uncaught IOException
 In the future:
-    I well remember to declare `throws IOException`
+    I well remember to declare `throws IOException` whe n defining the method

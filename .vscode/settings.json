@@ -10,6 +10,7 @@
         "Vals",
         "abyte",
         "aeiou",
+        "masslb",
         "precip"
     ],
     "code-runner.runInTerminal": true,
