@@ -1,0 +1,13 @@
+PROJECT TITLE: CircleV1
+PURPOSE OF THE PROJECT: To show cool data on a circle
+VERSION or DATE: 11, 18, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    It was fun to do all of the calculations
+<S->
+    It was kind of annoying to pass every variable through
+In the future:
+    I will use OOP more effectively
