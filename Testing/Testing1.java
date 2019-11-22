@@ -3,6 +3,12 @@ import java.util.Scanner;
 import java.lang.reflect.Array; 
 
 public class Testing1 {
+
+    public Testing1() {
+
+    }
+
+
     public static void main(String[ ] args) {
 
         String[] arr = {"lmao", "asdfasdfa", "asdf", "asfasfsdfasdfasdfasdff"};
