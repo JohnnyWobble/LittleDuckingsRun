@@ -1,0 +1,12 @@
+Max Gordon
+20 November 2019
+Assignment: 08.04 Discussion Topic
+
+
+All of these climate predictions, don't seem like they are accurate enough to base other predictions off of. They have a very wide range of estimates, so if we are to take action we will need to prepare for the worst, e.i. the closest estimate. These computer models have to take into account lots of factors, and that increases their spread of data, so it looks like that run a Monte-Carlo type simulation with all of the data, and they use some statistical functions on the results. After running my program that estimated pi, I realize just how many iterations are necessary to get accurate data, millions. I imagine that it must be even more for a simulation with orders of magnitudes more variables and dependent. I have heard anywhere for 5 to 72 years until the damage is irreversible, this means that there is also very little consensuses on the data. Now also the US pulled out of UNESCO, because president Trump doesn't "believe" in climate change and global warming, so within America, they is much less progress towards fixing the climate than there should be, given the state that we are in.
+
+-- reply to Fariha Rafa, 11/20/19 --
+Wow, this is very cool! I didn't know that Alexandria was doing to much to decrease their energy consumption and lessen their carbon footprint. I think these can be some very effective methods, more city and honestly, countries should use similar methods. Great post!
+
+-- reply to Katherine Ren, 11/10/19 --
+This is exactly how I feel about our current situation with politicians debates whether climate change even exists. I do appreciate the poetic tone of yo analysis, and honestly I could not agree more with "Man is digging himself into destruction, whilst thinking himself too intelligent to acknowledge that there is a problem." I sincerely hope that we start agreeing on what to do, fast, before it is too late to fix our problems.
