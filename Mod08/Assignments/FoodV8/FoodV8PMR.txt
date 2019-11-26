@@ -1,0 +1,13 @@
+PROJECT TITLE: To demonstrate OOP in an array
+PURPOSE OF THE PROJECT: FoodV8
+VERSION or DATE: 11, 26, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    It was pretty cool playing around with OOP in the arrays
+<S->:
+    Sometimes I would accidentally run FoodV8.java instead of FoodV8Tester.java and it would throw an error
+In the future:
+    I will be more careful about which file I actually run
