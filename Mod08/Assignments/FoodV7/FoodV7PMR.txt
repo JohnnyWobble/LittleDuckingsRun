@@ -1,0 +1,13 @@
+PROJECT TITLE: To demonstrate OOP
+PURPOSE OF THE PROJECT: FoodV7
+VERSION or DATE: 11, 26, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    It was pretty cool playing around with OOP
+<S->:
+    Sometimes I would accidentally run FoodV7.java instead of FoodV7Tester.java and it would throw an error
+In the future:
+    I will be more careful about with file I actually run
