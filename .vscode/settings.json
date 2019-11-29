@@ -14,5 +14,5 @@
         "precip"
     ],
     "code-runner.runInTerminal": true,
-    "code-runner.saveFileBeforeRun": true
+    "code-runner.saveAllFilesBeforeRun": true
 }

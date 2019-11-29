@@ -1,0 +1,13 @@
+PROJECT TITLE: CO2Footprint
+PURPOSE OF THE PROJECT: To practice making javadocs
+VERSION or DATE: 11, 29, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    Coming from a python background, I love the javadocs, they are nicely organized, useful, and downright cool
+<S->:
+    Making the comments with the proper tags was sometimes annoying
+In the future:
+    I will 100% try to incorporate javadocs documentation in my code
