@@ -1,30 +1,16 @@
-import java.util.Random;
-import java.util.Scanner;  
-import java.lang.reflect.Array; 
+import java.util.ArrayList;
 
 public class Testing1 {
-
-    public Testing1() {
-
+    public static void main(String[] args) {
+        ArrayList<Double> aList = new ArrayList<Double>(3);
+        aList.add(3.5);
+        aList.add(4.3);
+        aList.set(1, 12.3);
+        aList.add(1, 18.9);
+        aList.remove(2);
+        aList.set(0, -20.3);
+        aList.add(24.8);
+        System.out.println(aList.size());
+        Testing2.mom(1);
     }
-
-
-    public static void main(String[ ] args) {
-
-        String[] arr = {"lmao", "asdfasdfa", "asdf", "asfasfsdfasdfasdfasdff"};
-
-        System.out.println(someMethod(arr));
-    }
-
-    public static int someMethod(String[] str) {
-
-        int max = Integer.MIN_VALUE;
-        
-        for (int i = 0; i < str.length; i++) {
-        if (max < str[i].length()) {
-        max = str[i].length();
-        }
-        }
-        return max;
-        }
 }

@@ -1,0 +1,13 @@
+PROJECT TITLE: OOPEstimatePI
+PURPOSE OF THE PROJECT: To estimate pi but with OOP
+VERSION or DATE: 12, 05, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    It was a lot of fun OOPing the program
+<S->:
+    It was kind of annoying to do all of the documentation
+In the future:
+    I will do my best to OOP my programs

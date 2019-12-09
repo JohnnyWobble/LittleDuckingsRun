@@ -1,0 +1,13 @@
+PROJECT TITLE: COFromWasteV1
+PURPOSE OF THE PROJECT: To show cool stats about how much CO2 you make
+VERSION or DATE: 12, 05, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    I love ArrayLists, they are so convenient
+<S->:
+    They can be a bit tricky sometimes
+In the future:
+    I will utilize ArrayLists in my code
