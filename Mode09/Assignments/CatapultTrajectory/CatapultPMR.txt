@@ -1,0 +1,13 @@
+PROJECT TITLE: Catapult
+PURPOSE OF THE PROJECT: To show some cool data on trajectories 
+VERSION or DATE: 12, 13, 2019
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    I had some fun with the matrices
+<S->:
+    It was annoying to index columns and then rows
+In the future:
+    I will learn to use multi-dimensional arrays
