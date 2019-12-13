@@ -1,16 +1,29 @@
-import java.util.ArrayList;
+/**
+ * <desciption>
+ * 
+ * @author Max Gordon
+ * @version 12/13/2019
+ */
 
 public class Testing1 {
     public static void main(String[] args) {
-        ArrayList<Double> aList = new ArrayList<Double>(3);
-        aList.add(3.5);
-        aList.add(4.3);
-        aList.set(1, 12.3);
-        aList.add(1, 18.9);
-        aList.remove(2);
-        aList.set(0, -20.3);
-        aList.add(24.8);
-        System.out.println(aList.size());
-        Testing2.mom(1);
+        System.out.println(timeFinder("09:30"));
+        System.out.println(timeFinder("13:20"));
+        System.out.println(timeFinder("01:59"));
+        System.out.println(timeFinder("24:12"));
+        // System.out.println(timeFinder());
+    }
+
+    public static String timeFinder(String worldFormat) {
+int hh = Integer.parseInt(worldFormat.substring(0, 2));
+String other = worldFormat.substring(2, 5);
+String form = " AM";
+
+if (hh >= 12) {
+hh -= 12;
+form = " PM";
+}
+return (hh + other + form);
+        
     }
 }
