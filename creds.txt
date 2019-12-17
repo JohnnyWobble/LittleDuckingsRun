@@ -26,6 +26,8 @@ Quiz Rules: Look closely to see the number of submissions allowed for a quiz in 
 08.10 ArrayLists I: al1-5
 08.14 Part 1 Challenge Exam-Multiple-Choice: m8cemc20
 08.14 Part 2 Challenge Exam-Free Response: m8cefr5
+10.01 Part A Segment One Exam-Multiple-Choice: s1femc24
+10.01 Part B Segment One Exam-Free Response: s1fefr3
 
 ----- ----- -----
 
