@@ -1,0 +1,43 @@
+Max Gordon
+1/8/2020
+Assignment: 12.02 Real-World Recursion 
+
+Explain how you used the principle of recursion to create your image.
+
+    When I created my art piece, I would continue sub dividing the rectangle until it sparked 
+    something in me. At the beginning I had no prior plan to how I wanted my art to look, but 
+    as it neared its completion, I started to get I better idea of how I wanted it to turn out.
+
+Briefly describe a plan for how you might write a program to produce Mondrian art.
+
+    I think that to generate Mondrian art the program must first generate a random number (0 or 1)
+    and that number will correspond to the rectangle that it will subdivide, and then it will 
+    generate anther number (0 - 1)  that is the percent of the width that the new rectangle with take 
+    up. After that it will generate a third number that will correspond to the color of the new rectangle, 
+    but it will be more likely to generate the number the corresponds to white. Once all of that is done, 
+    it will generate one final number (0 or 1) and that number is whether to continue going deeper in the 
+    rectangle or to step back and look at a different rectangle.
+
+
+Who should get the copyright credit for a piece of computer art: the CPU, the software, or the programmer? Explain your reasoning.
+
+    The CPU is a tool, if an artist carves a statue, the hammer and chisel to not get the credit for it. But 
+    in this case, the software will be the one generating said "statue" while the programmer trained and 
+    created the software. When a teacher teaches a student and the student goes on to create something great, 
+    the teacher does get some credit for the student's achievement. So in this case, the credit for creating art 
+    should be split by the software, and the programmer, because both were necessary in the creation of the art 
+    piece. But because software cannot own a copyright at the moment, the copyright must go to the programmer.
+
+If a computer, with no human intervention, produced Mondrian art indistinguishable from an original masterpiece, would it be a sign of artificial intelligence?
+
+    It depends on how the art was generated, if it was just a random generation of lines and colors, and it happened
+    to look like another art piece, than is does not show artificial intelligence. But if the software were to conduct
+    an analysis on what humans find appealing, and then it came up with this piece as a result, then it would show some
+    sign of intelligence.
+
+If a computer, with no human intervention, produced Mondrian art indistinguishable from an original masterpiece, would it diminish the accomplishments of a human?
+
+    It all depends on the method used to generate the art, if it was random, then it is all pure chance and it doesn't 
+    effect anything, but if it used some advanced algorithm, then it would increase the accomplishment of the original 
+    artist. Because not only did that artist come up with the design, but a smart program that had lots of inputs data 
+    on what humans liked.
