@@ -29,6 +29,15 @@ Quiz Rules: Look closely to see the number of submissions allowed for a quiz in 
 10.01 Part A Segment One Exam-Multiple-Choice: s1femc24
 10.01 Part B Segment One Exam-Free Response: s1fefr3
 
+Semester II Quiz Passes
+
+12.04 There and Back Again: m12r5
+12.06 Challenge Program: m12cp5
+13.01 Extending Classes: m13ec5
+14.02 Static Means Never Having to Instantiate an Object:
+m14static5
+19.01 Assertions and Exceptions: m19ae5
+
 ----- ----- -----
 
 Below are your EIMACS credentials. Your username and password are enclosed in the parentheses. Treat your EIMACS resource as a reference book. It will be required starting module two; section 02.03. You will not need these EIMACS credentials for the first assessment that you will turn in (StudentInfoCard.java) in section 1.05:

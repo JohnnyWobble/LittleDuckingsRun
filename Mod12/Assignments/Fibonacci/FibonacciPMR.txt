@@ -1,0 +1,15 @@
+PROJECT TITLE: Fibonacci
+PURPOSE OF THE PROJECT: The calculate the Fibonacci sequence
+VERSION or DATE: 01, 10, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    I think recursion is really cool, and I had a lot of fun playing around with it
+<S->:
+    I originally wrote my program without OOP, but then after I went back to do OOP it ended up being 
+    longer and more convoluted than before. So I think the best way to write this program, would be 
+    the functional style.
+In the future:
+    I will write a Fibonacci calculator with a functional style.
