@@ -1,36 +1,47 @@
-import java.util.ArrayList;
+/**
+ * 
+ * @author Max Gordon
+ * @version 01/14/2020
+ */
 
-public class FileText {
+public class Testing {
+    public static void main(String[] args) {
+        // System.out.println(recur);
+        System.out.println( recur("mouse", 1));
+    }
 
-    private String fileName;
-    private int fileBytes;
+    public static String recur(String str, int n)
+{
+     if(n >= str.length())
+     {
+          return str;
+     }
 
-    private ArrayList<String> wordList; // the contents of the text file
+     return str + recur(str.substring(n + 1), n);
+}
 
-
-
-
-    // constructors not shown
-
-    // postcondition: calculates the number of bytes in this file and updates
-    // the instance variable fileBytes
-    public void fileSize() {
-
-        for (int i = 0; i < wordList.size(); i++) {
-            fileBytes += wordList.get(i).length();
+    public static void recur(String str) {
+        int len = str.length();
+        if (len > 1) {
+            String temp = str.substring(0, len - 2);
+            recur(temp);
+            System.out.println(temp);
         }
-        fileBytes += wordList.size() - 1;
-        wordList.get
     }
 
-    // precondition: 0 < newWords.length < wordList.size ()
-    // postcondition: elements from the newWords array are placed into consecutive
-    // even index positions, including 0, of the wordlist ArrayList
-    // postcondition: the value of fileBytes is updated
-    public void mergeWords(String[] newWords) {
-
+    public static void mystery(int n) {
+        if (n > 5) {
+            System.out.print(n + " ");
+        } else {
+            mystery(n + 3);
+        }
     }
 
-    // other methods not shown
+    public static int mystery(int n, boolean a) {
+        if (n > 5) {
+            return mystery(n - 2, false) + 2;
+        }
 
+        return n + 2;
+    }
 }
