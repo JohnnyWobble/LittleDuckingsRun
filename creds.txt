@@ -34,8 +34,7 @@ Semester II Quiz Passes
 12.04 There and Back Again: m12r5
 12.06 Challenge Program: m12cp5
 13.01 Extending Classes: m13ec5
-14.02 Static Means Never Having to Instantiate an Object:
-m14static5
+14.02 Static Means Never Having to Instantiate an Object: m14static5
 19.01 Assertions and Exceptions: m19ae5
 
 ----- ----- -----

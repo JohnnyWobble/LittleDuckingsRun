@@ -1,0 +1,13 @@
+PROJECT TITLE: Terrain
+PURPOSE OF THE PROJECT: To show some cool inheritance 
+VERSION or DATE: 02, 02, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    inheritance is pretty cool
+<S->:
+    vscode doesn't read the other classes right
+In the future:
+    I will use inheritance

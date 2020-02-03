@@ -1,0 +1,13 @@
+PROJECT TITLE: Magpie Lab
+PURPOSE OF THE PROJECT: To make a program that can talk to the user
+VERSION or DATE: 02, 01, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    I was kinda fun making a little chatbot
+<S->:
+    Java sucks a string manipulation
+In the future:
+    I will not use java for string manipulation
