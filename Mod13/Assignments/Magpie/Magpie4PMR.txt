@@ -1,0 +1,13 @@
+PROJECT TITLE: Magpie
+PURPOSE OF THE PROJECT: To make a conversation bot
+VERSION or DATE: 02, 07, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    I had fun with this project, it was cool to talk with the bot
+<S->:
+    Java is terrible at string manipulation
+In the future:
+    I will talk to my bot more often

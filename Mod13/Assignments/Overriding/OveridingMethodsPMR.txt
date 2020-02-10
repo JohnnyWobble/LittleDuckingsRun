@@ -1,0 +1,13 @@
+PROJECT TITLE: OverridingMethods
+PURPOSE OF THE PROJECT: To show some cool method overisions
+VERSION or DATE: 02, 07, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    I had a bit of fun making all of these classes
+<S->:
+    Figuring out which methods to override and keep was a bit confusing
+In the future:
+    I will override methods
