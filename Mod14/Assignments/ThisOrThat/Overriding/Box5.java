@@ -5,12 +5,12 @@
  * @author Max Gordon
  * @version 2/5/20
  */
-public class Box4 extends Rectangle4 {
+public class Box5 extends Rectangle5 {
     // instance variables
     private int height;
 
     // Constructor for objects of class Box
-    public Box4(int length, int width, int height) {
+    public Box5(int length, int width, int height) {
         // call superclass
         super(length, width);
 
@@ -29,7 +29,7 @@ public class Box4 extends Rectangle4 {
         return "Box - " + getLength() +" X " + getWidth() + " X " + this.height; 
     }
 
-    public boolean equals(Box4 other) {
+    public boolean equals(Box5 other) {
         return (getLength() == other.getLength() && getWidth() == other.getWidth() && this.height == other.getHeight());
     }
 }

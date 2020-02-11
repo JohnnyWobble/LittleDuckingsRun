@@ -4,10 +4,10 @@
  * @version 02/07/2020
  */
 
-public class ExtrudedSquare4 extends Square4 {
+public class ExtrudedSquare5 extends Square5 {
     private int height;
 
-    public ExtrudedSquare4(int length, int height) {
+    public ExtrudedSquare5(int length, int height) {
         super(length);
         this.height = height;
     }
@@ -21,7 +21,7 @@ public class ExtrudedSquare4 extends Square4 {
         return "Extruded square - " + getLength() +" X " + getWidth() + " X " + getHeight(); 
     }
 
-    public boolean equals(ExtrudedSquare4 other) {
+    public boolean equals(ExtrudedSquare5 other) {
         return (getLength() == other.getLength() && getWidth() == other.getWidth() && this.height == other.getHeight());
     }
 }

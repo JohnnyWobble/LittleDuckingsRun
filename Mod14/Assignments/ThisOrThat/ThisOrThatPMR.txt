@@ -1,0 +1,13 @@
+PROJECT TITLE: This or that
+PURPOSE OF THE PROJECT: To use the this keyword
+VERSION or DATE: 02, 11, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    The this keyword is super convenient
+<S->:
+    It was a little annoying to go through everything to fix them because I picked the two biggest files to do
+In the future:
+    I will use the this keyword

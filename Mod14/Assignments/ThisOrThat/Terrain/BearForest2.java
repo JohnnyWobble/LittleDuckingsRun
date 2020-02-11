@@ -5,10 +5,10 @@
  * @version 02/02/2020
  */
 
-public class BearForest extends Forest {
+public class BearForest2 extends Forest2 {
     private int numberBears;
 
-    public BearForest(int length, int width, int numTrees, int numberBears) {
+    public BearForest2(int length, int width, int numTrees, int numberBears) {
         super(length, width, numTrees);
         this.numberBears = numberBears;
     }

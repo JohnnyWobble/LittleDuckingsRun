@@ -4,10 +4,10 @@
  * @version 02/02/2020
  */
 
-public class Forest extends Terrain {
+public class Forest2 extends Terrain2 {
     private int numTrees;
 
-    public Forest (int length, int width, int numTrees) {
+    public Forest2(int length, int width, int numTrees) {
         super(length, width);
         this.numTrees = numTrees;
     }

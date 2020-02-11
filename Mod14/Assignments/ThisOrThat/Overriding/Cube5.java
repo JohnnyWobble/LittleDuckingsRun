@@ -4,8 +4,8 @@
  * @version 02/05/2020
  */
 
-public class Cube4 extends Box4{
-    public Cube4 (int side) {
+public class Cube5 extends Box5{
+    public Cube5 (int side) {
         super(side, side, side);
     }
 

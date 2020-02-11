@@ -5,10 +5,10 @@
  * @version 02/02/2020
  */
 
-public class Desert extends Terrain {
+public class Desert2 extends Terrain2 {
     private int grainsOfSand;
 
-    public Desert(int length, int width, int grainsOfSand) {
+    public Desert2(int length, int width, int grainsOfSand) {
         super(length, width);
         this.grainsOfSand = grainsOfSand;
     }

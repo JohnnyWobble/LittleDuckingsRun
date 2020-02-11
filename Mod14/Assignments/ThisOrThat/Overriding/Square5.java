@@ -4,9 +4,9 @@
  * @version 02/05/2020
  */
 
-public class Square4 extends Rectangle4 {
+public class Square5 extends Rectangle5 {
 
-    public Square4(int side) {
+    public Square5(int side) {
         super(side, side);
     }
 

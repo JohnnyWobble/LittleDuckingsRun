@@ -8,13 +8,13 @@ import org.w3c.dom.css.Rect;
  * @author Max Gordon
  * @version 2/5/20
  */
-public class Rectangle4 {
+public class Rectangle5 {
     // instance variables
     private int length;
     private int width;
 
     // Constructor for objects of class Rectangle
-    public Rectangle4(int length, int width) {
+    public Rectangle5(int length, int width) {
         // initialize instance variables
         this.length = length;
         this.width = width;
@@ -36,7 +36,7 @@ public class Rectangle4 {
         return "Rectangle - " + this.length + " X " + this.width; 
     }
 
-    public boolean equals(Rectangle4 other) {
+    public boolean equals(Rectangle5 other) {
         return (this.length == other.getLength() && this.width == other.getWidth());
     }
 }
