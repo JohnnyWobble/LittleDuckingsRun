@@ -35,6 +35,10 @@ Semester II Quiz Passes
 12.06 Challenge Program: m12cp5
 13.01 Extending Classes: m13ec5
 14.02 Static Means Never Having to Instantiate an Object: m14static5
+14.09 Part 1 Challenge Exam-Multiple-Choice: m14p1e12
+14.09 Part 2 Challenge Exam-Free Response: m14p2e5
+15.06 Part 1 Challenge Exam-Multiple-Choice: m15p1e10
+15.06 Part 2 Challenge Exam-Free Response: m15p2e5
 19.01 Assertions and Exceptions: m19ae5
 
 ----- ----- -----

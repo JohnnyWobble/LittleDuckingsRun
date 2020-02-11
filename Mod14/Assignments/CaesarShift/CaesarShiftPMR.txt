@@ -1,0 +1,13 @@
+PROJECT TITLE: Caesar shift
+PURPOSE OF THE PROJECT: to demonstrate a cool Caesar shift
+VERSION or DATE: 02, 11, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    It was quite cool to literally inherit every function from the Encryption class
+<S->:
+    It was a bit annoying to figure out the user input
+In the future:
+    I will use inheritance
