@@ -1,0 +1,13 @@
+PROJECT TITLE: RSA
+PURPOSE OF THE PROJECT: To compute all prime numbers in between a given range 
+VERSION or DATE: 02, 20, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    This was a lot of fun and I learned about cool theorems with prime numbers
+<S->:
+    It was hard to optimize this program for speed
+In the future:
+    I will focus more heavily on optimization
