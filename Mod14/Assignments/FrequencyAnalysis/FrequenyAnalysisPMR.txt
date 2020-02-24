@@ -1,0 +1,13 @@
+PROJECT TITLE: FrequencyAnalysis
+PURPOSE OF THE PROJECT: To solve a cypher with frequency analysis
+VERSION or DATE: 02, 24, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    I like the quote you picked out to decipher
+<S->:
+    At first I was solving it by hand, but then I used the replace methods build into the IDE
+In the future:
+    I will use replace methods when I am deciphering messages

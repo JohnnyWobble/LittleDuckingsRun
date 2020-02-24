@@ -1,0 +1,40 @@
+Max Gordon
+2/24/2020
+Frequency Analysis
+
+What difficulties did you run into writing the frequency analysis program? How did you resolve these problems?
+
+    I had a few issues with declaring the methods to throw errors, but once I googled the problem, I 
+    figured out a way to fix it
+
+
+How closely did the frequencies of letters in the plaintext and the ciphertext correspond? 
+
+    They were pretty close sometimes, but they could very up to 1.5% and that sometimes made things 
+    confusing
+
+
+What could be done to improve the accuracy of the correspondence?
+
+    Use larger bodies of text for analysis, especially the ciphertext because that was smaller
+
+
+This assignment involved writing a program and then interpreting the results the old fashioned way. Propose an extension 
+to this project that would allow the computer to do all the work so that you only have to evaluate whether the decoded message 
+makes senses. You don’t need to actually write another program to do this, just consider how it could be done and clearly 
+describe your solution in a well-written paragraph.
+
+        To have the program evaluate it, you would need to store the frequencies in several arrays. Then you would
+    need to make a method that sifts through them and matches them up in descending order. After that, it would
+    print it to the user, and the user would evaluate it and the program would take input as to whether its correct.
+    If it is wrong, then it would go back and find the two closest pairs, and swap them. It will continue to repeat 
+    this process until the user thinks that the output is correct.
+
+
+
+"""
+first i believe that this nation should commit itself to achieving 
+the goal before this decade is out of landing a man on the moon and 
+returning him safely to the earth
+"""
+        -JFK 1961
