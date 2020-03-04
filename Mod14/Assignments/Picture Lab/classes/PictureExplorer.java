@@ -9,6 +9,9 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.awt.image.*;
+import java.io.File;
+import java.util.Scanner;
+
 import javax.swing.border.*;
 /**
  * Displays a picture and lets you explore the picture by displaying the row, column, red,
@@ -31,15 +34,25 @@ public class PictureExplorer implements MouseMotionListener, ActionListener, Mou
    */
   public static void main( String args[])
   {
-    Picture pix = new Picture("beach.jpg");
-    pix.explore();
-    
-    /*
-    Picture p = new Picture("beach.jpg");
-    Picture smallP = p.scale(0.25, 0.25);
-    smallP.write("smallBeach.jpg");
-    smallP.explore();
-    */
+    Scanner in = new Scanner(System.in);
+    File pictureFile;
+    System.out.print("Picture to open: ");
+    String pictureName = in.nextLine();
+    pictureFile = new File("../images/" + pictureName);
+
+    while (!pictureFile.exists()) {
+      System.out.println("[Error: no file found]");
+      System.out.print("Picture to open: ");
+      pictureName = in.nextLine();
+      pictureFile = new File("../images/" + pictureName);
+    }
+
+    System.out.print("How much to scale the image by: ");
+    double scale = in.nextDouble();
+
+    Picture pix = new Picture(pictureName);
+    pix.scale(scale, scale);
+    pix.explore();   
   }  
     
   
