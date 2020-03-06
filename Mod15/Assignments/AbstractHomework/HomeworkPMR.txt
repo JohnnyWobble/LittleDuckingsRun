@@ -1,0 +1,13 @@
+PROJECT TITLE: Homework
+PURPOSE OF THE PROJECT: To demonstrate use cases of abstract classes 
+VERSION or DATE: 03, 06, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    It made my life so much easier when I didn't have to rewrite the same class 4 times
+<S->:
+    The instructions were a bit confusing
+In the future:
+    I will use abstract classes
