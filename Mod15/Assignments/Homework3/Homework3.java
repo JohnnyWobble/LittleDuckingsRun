@@ -4,11 +4,11 @@
  * @version 03/06/2020
  */
 
-public abstract class Homework {
+public abstract class Homework3 implements Processing{
     private int numPages;
     private String hwType;
 
-    public Homework() {
+    public Homework3() {
         numPages = 0;
         hwType = "none";
     }
