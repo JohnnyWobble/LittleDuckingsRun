@@ -1,0 +1,13 @@
+PROJECT TITLE: Homework4
+PURPOSE OF THE PROJECT: To use Comparable<T>
+VERSION or DATE: 03, 10, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    I quite like Comparable<T>, they make my life easier
+<S->:
+    It was a bit tricky to get started at first
+In the future:
+    I will use Comparable<T>
