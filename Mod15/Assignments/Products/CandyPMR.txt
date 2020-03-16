@@ -1,0 +1,13 @@
+PROJECT TITLE: Candy
+PURPOSE OF THE PROJECT: To show how to use interfaces or smth 
+VERSION or DATE: 03, 16, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    It was cool having a template to all of my classes
+<S->:
+    Filling out the template was annoying at times
+In the future:
+    I will use interfaces

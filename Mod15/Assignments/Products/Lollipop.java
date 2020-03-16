@@ -15,6 +15,6 @@ public class Lollipop extends Candy implements Comparable<Lollipop> {
 
     @Override
     public int compareTo(Lollipop arg0) {
-        return (int)(arg0.getCost() - getCost() * 100);
+        return (int)((arg0.getCost() - getCost()) * 100);
     }
 }
