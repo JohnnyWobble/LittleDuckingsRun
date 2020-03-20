@@ -4,16 +4,23 @@
  * @version 03/12/2020
  */
 
-public abstract class Candy implements Product{
+public class Soda implements Product, Comparable<Soda> {
     private String name;
     private double cost;
 
-    public Candy(String name, double cost) {
-        this.name = name;
+    public Soda(double cost) {
+        name = "soda";
         this.cost = cost;
     }
 
-    public abstract void eat();
+    public void eat() {
+        System.out.println("A " + getName() + " was drank");
+    }
+
+    @Override
+    public int compareTo(Soda arg0) {
+        return (int)((arg0.getCost() - getCost()) * 100);
+    }
 
     /**
      * @return the name

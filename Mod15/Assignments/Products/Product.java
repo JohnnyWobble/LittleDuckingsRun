@@ -8,5 +8,5 @@
 public interface Product {
     public String getName();
 
-    public int getNumber();
+    public double getCost();
 }
