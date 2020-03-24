@@ -8,12 +8,10 @@ import java.util.ArrayList;
 
 public class Testing {
     public static void main(String[] args) {
-        ArrayList<Integer> a = new ArrayList<Integer>();
-        ArrayList b = a;
-        a.add(new Integer(4));
-        b.add(new Integer(5));
-        a.add(new Integer(6));
-        System.out.println(b.size());
+        String str1 = "a";
+        String str2 = "b";
+        int number = str1.compareTo(str2);
+        System.out.println(number);
     }
 
     private int number;
