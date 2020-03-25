@@ -1,6 +1,6 @@
 PROJECT TITLE: Picture Lab
 PURPOSE OF THE PROJECT: To interact with some pictures
-VERSION or DATE: 03, 06, 2020
+VERSION or DATE: 03, 25, 2020
 AUTHOR: Max Gordon
  
 PMR
