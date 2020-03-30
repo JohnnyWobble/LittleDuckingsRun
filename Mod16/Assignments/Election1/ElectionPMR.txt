@@ -1,0 +1,13 @@
+PROJECT TITLE: Election
+PURPOSE OF THE PROJECT: To transverse arrays/arrayLists
+VERSION or DATE: 03, 29, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    It was cool to transverse the arrays and arrayLists
+<S->:
+    It is slightly more annoying to transverse arrayLists than arrays
+In the future:
+    I will transverse more arrays in the future
