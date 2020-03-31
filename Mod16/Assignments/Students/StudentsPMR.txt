@@ -1,0 +1,13 @@
+PROJECT TITLE: Students
+PURPOSE OF THE PROJECT: To show some array algorithms
+VERSION or DATE: 03, 30, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    It is quite powerful to transverse indefinitely sized arrays and arrayLists
+<S->:
+    I accidentally added the same object to on of my arrayLists and it cause an out of RAM error
+In the future:
+    I will be more careful with adding objects to arrays and arrayLists
