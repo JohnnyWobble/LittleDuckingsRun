@@ -1,0 +1,13 @@
+PROJECT TITLE: Picture Lab
+PURPOSE OF THE PROJECT: To interact with some pictures
+VERSION or DATE: 03, 25, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    I though it was cool that I could manipulate pictures
+<S->:
+    It was annoying that most of the code was pretty much black boxed
+In the future:
+    I will strive to understand the code more
