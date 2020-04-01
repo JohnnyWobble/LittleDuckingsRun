@@ -39,6 +39,8 @@ Semester II Quiz Passes
 14.09 Part 2 Challenge Exam-Free Response: m14p2e5
 15.06 Part 1 Challenge Exam-Multiple-Choice: m15p1e10
 15.06 Part 2 Challenge Exam-Free Response: m15p2e5
+18.04 Challenge Exam: m18e11
+19.01 Assertions and Exceptions: m19ae5
 19.01 Assertions and Exceptions: m19ae5
 
 ----- ----- -----
