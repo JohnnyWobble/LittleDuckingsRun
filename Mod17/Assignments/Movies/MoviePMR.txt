@@ -1,0 +1,13 @@
+PROJECT TITLE: Movie
+PURPOSE OF THE PROJECT: To show the insertion sorting algorithm
+VERSION or DATE: 04, 01, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    The insertion sort is pretty
+<S->:
+    I think the insertion sort takes up more memory then other algorithms
+In the future:
+    I will research other sorting algorithms
