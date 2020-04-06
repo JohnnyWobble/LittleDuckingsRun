@@ -1,0 +1,13 @@
+PROJECT TITLE: Movie
+PURPOSE OF THE PROJECT: To show the selection sorting algorithm
+VERSION or DATE: 04, 05, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    The selection sort is pretty intuitive
+<S->:
+    Because of the double iteration I think the selection sort takes up more memory
+In the future:
+    I will research other sorting algorithms
