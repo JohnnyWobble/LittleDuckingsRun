@@ -1,0 +1,13 @@
+PROJECT TITLE: Movie
+PURPOSE OF THE PROJECT: To show the merge sorting algorithm
+VERSION or DATE: 04, 07, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    The merge sort is pretty cool
+<S->:
+    Because of all of the recursion, I think the merge sort takes up more memory
+In the future:
+    I will research other sorting algorithms

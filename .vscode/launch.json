@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": "Mod17.Assinments.Merge sort.MovieTesterV4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Main",
             "request": "launch",
             "mainClass": "Mod02.Files.Testing1.Main",
