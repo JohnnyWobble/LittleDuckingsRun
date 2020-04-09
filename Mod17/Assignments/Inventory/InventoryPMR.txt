@@ -1,0 +1,13 @@
+PROJECT TITLE: Inventory
+PURPOSE OF THE PROJECT: To show different sorting algorithms
+VERSION or DATE: 04, 09, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    This wasn't too hard because I already had the code written
+<S->:
+    It was a little bit annoying to change all of the class names
+In the future:
+    I will use merge sort because it seems like the fastest
