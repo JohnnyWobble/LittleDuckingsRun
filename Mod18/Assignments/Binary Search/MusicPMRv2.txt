@@ -1,0 +1,13 @@
+PROJECT TITLE: Music
+PURPOSE OF THE PROJECT: To demonstrate a binary search 
+VERSION or DATE: 04, 15, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    Binary searching is super fast
+<S->:
+    Binary searching is a little difficult to implementSequentially
+In the future:
+    I will research other searching algorithms
