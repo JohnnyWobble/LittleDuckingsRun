@@ -1,0 +1,13 @@
+PROJECT TITLE: Music
+PURPOSE OF THE PROJECT: To demonstrate a sequential search 
+VERSION or DATE: 04, 15, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    The sequential search is super easy to implement
+<S->:
+    Sequentially searching is slow
+In the future:
+    I will research other searching algorithms
