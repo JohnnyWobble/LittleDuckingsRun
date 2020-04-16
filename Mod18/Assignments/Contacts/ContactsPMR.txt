@@ -1,0 +1,13 @@
+PROJECT TITLE: Contacts
+PURPOSE OF THE PROJECT: To show the binary and sequential searching algorithms
+VERSION or DATE: 04, 15, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    This was pretty easy to implement because most of it was copy + paste previous code
+<S->:
+    I did not enjoy coming up with all of the names and dates
+In the future:
+    I will use the merge sort and the binary search algorithms

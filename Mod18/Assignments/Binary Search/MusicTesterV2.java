@@ -118,13 +118,13 @@ public class MusicTesterV2 {
     public static void findYear(List<MusicV2> musics, int year) {
         findYear(musics, year, 0, musics.size() - 1);
     }
+    
+    public static void findTitle(List<MusicV2> musics, String title) {
+        findTitle(musics, title, 0, musics.size() - 1);
+    }
 
     public static void findArtist(List<MusicV2> musics, String artist) {
         findArtist(musics, artist, 0, musics.size() - 1);
-    }
-
-    public static void findTitle(List<MusicV2> musics, String title) {
-        findTitle(musics, title, 0, musics.size() - 1);
     }
 
     public static void findArtist(List<MusicV2> musics, String artist, int low, int high) {
