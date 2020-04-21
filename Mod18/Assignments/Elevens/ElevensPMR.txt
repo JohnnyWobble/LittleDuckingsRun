@@ -1,0 +1,13 @@
+PROJECT TITLE: Elevens
+PURPOSE OF THE PROJECT: 
+VERSION or DATE: 04, 21, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    Shuffling is cool
+<S->:
+    Shuffling is hard
+In the future:
+    I will use shuffling
