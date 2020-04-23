@@ -1,0 +1,13 @@
+PROJECT TITLE: Challenge Project
+PURPOSE OF THE PROJECT: To demonstrate errors
+VERSION or DATE: 04, 23, 2020
+AUTHOR: Max Gordon
+ 
+PMR
+    
+<S+>:
+    Errors can be super useful
+<S->:
+    Errors are super annoying sometimes
+In the future:
+    I will use error in my code
