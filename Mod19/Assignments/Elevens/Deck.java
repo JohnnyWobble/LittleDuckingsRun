@@ -2,13 +2,13 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Random;
 /**
- * The DeckV2 class represents a shuffled deck of cards. It provides several
+ * The Deck class represents a shuffled deck of cards. It provides several
  * operations including initialize, shuffle, deal, and check if empty.
  *
  *
  * < Your Name > < Today's Date >
  */
-public class DeckV2 {
+public class Deck {
     private List<Card> cards; // contains all the cards in the deck
 
     private int size; // size is the number of not-yet-dealt cards.
@@ -16,7 +16,7 @@ public class DeckV2 {
                       // The next card to be dealt is at size - 1.
 
     /**
-     * Creates a new DeckV2 instance.<BR>
+     * Creates a new Deck instance.<BR>
      * It pairs each element of ranks with each element of suits, and produces one
      * of the corresponding card.
      * 
@@ -24,7 +24,7 @@ public class DeckV2 {
      * @param suits  is an array containing all of the card suits.
      * @param values is an array containing all of the card point values.
      */
-    public DeckV2(String[] ranks, String[] suits, int[] values) {
+    public Deck(String[] ranks, String[] suits, int[] values) {
         cards = new ArrayList<Card>();
 
         for (String suit : suits) {
@@ -62,7 +62,7 @@ public class DeckV2 {
      */
     public void shuffle() {
         List<Card> newCards = new ArrayList<Card>(this.cards.size());
-        System.out.println("sizesdfsdf: " + this.cards.size());
+        size = this.cards.size();
         Random r = new Random();
 
         List<Integer> indexes = new ArrayList<Integer>();
