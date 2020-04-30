@@ -6,7 +6,7 @@
  */
 
 public class Testing1 implements TestingInterface{
-    public Testing1() {
+    public Testing1(int a) {
 
     }
 
