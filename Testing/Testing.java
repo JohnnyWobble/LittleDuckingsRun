@@ -7,62 +7,39 @@
 import java.util.ArrayList;
 
 public class Testing {
-    public static String a;
-
     public static void main(String[] args) {
-        int n = 5;
-                    
-        double[][] amps = new double[n][n];
-        for (double[] r : amps)
+        	
+
+        ArrayList<String> digits = new ArrayList<String>();
+        for (int k = 0; k <= 9; k++)
+          digits.add("" + k);
+        
+        for (int k = 0; k <= 4; k++)
         {
-          for (int k = 0; k < n; k++)
-          {
-            r[k] = Math.random();
-          }
+          String d1 = digits.remove(k);
+          String d2 = digits.remove(k);
+          digits.add(k, d1 + "+" + d2);
         }
-
-        for (var r : amps) {
-            for (var c : r) {
-                System.out.print(c + ", ");
-            }
-            System.out.println();
-        }
+        System.out.println(digits);
     }
 
-    private String x;
-  
-    public void feed(String number)
+    
+private static int product(int n)
+{
+  if (n <= 1)
+    return 1;
+  else
+    return n * product(n-2);
+}
+
+
+
+    public static void change(double[] nums, int n)              
     {
-      if (x == null || x.compareTo(number) < 0)
-        x = number;
+      for (int k = 0; k < n; k++)
+      {
+        nums[k] = 5.4;
+      } 
+      n = 2;
     }
-  
-    public String get()
-    {
-      return x;
-    }
-
-    public static void l() {
-        a.length();
-    }
-
-    public static void printSomething(String s) {
-        int n = s.length();
-        if (n < 1)
-            return;
-        String s1 = s.substring(1, n);
-        printSomething(s1);
-        System.out.println(s);
-        printSomething(s1);
-    }
-
-    public static int fun(int n) {
-        int product = 2;
-        for (int k = 2; k < n; k++)
-            product *= fun(k);
-
-        System.out.println(product + "   " + n);
-        return product;
-    }
-
 }
