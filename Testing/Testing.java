@@ -5,41 +5,21 @@
  * @version 01/14/2020
  */
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Testing {
     public static void main(String[] args) {
-        	
+        String[] fruits = {"apple", "pear", "mango", "peach"};
+int i = 3;
+String str = "p";
 
-        ArrayList<String> digits = new ArrayList<String>();
-        for (int k = 0; k <= 9; k++)
-          digits.add("" + k);
-        
-        for (int k = 0; k <= 4; k++)
-        {
-          String d1 = digits.remove(k);
-          String d2 = digits.remove(k);
-          digits.add(k, d1 + "+" + d2);
-        }
-        System.out.println(digits);
-    }
-
-    
-private static int product(int n)
+for(String item : fruits)
 {
-  if (n <= 1)
-    return 1;
-  else
-    return n * product(n-2);
+   i = item.indexOf("p") + 2;
+   str += item.substring(i);
 }
 
-
-
-    public static void change(double[] nums, int n)              
-    {
-      for (int k = 0; k < n; k++)
-      {
-        nums[k] = 5.4;
-      } 
-      n = 2;
+System.out.println(str);
     }
 }
